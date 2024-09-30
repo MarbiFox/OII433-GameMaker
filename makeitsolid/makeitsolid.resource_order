@@ -17,9 +17,12 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"entity","order":2,"path":"objects/entity/entity.yy",},
+    {"name":"entity","order":4,"path":"objects/entity/entity.yy",},
     {"name":"npc","order":3,"path":"objects/npc/npc.yy",},
-    {"name":"sprite_entity","order":2,"path":"sprites/sprite_entity/sprite_entity.yy",},
+    {"name":"question","order":6,"path":"objects/question/question.yy",},
+    {"name":"tes_hrc","order":5,"path":"objects/tes_hrc/tes_hrc.yy",},
+    {"name":"sprite_ent","order":2,"path":"sprites/sprite_ent/sprite_ent.yy",},
     {"name":"sprite_npc","order":1,"path":"sprites/sprite_npc/sprite_npc.yy",},
+    {"name":"sprite_room_set","order":3,"path":"sprites/sprite_room_set/sprite_room_set.yy",},
   ],
 }

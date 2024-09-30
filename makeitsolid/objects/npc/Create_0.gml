@@ -4,8 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-ent_spd = 2
-
-
-
+ent_spd = 64/60 * 2;
 
