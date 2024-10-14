@@ -2,6 +2,8 @@
   "FolderOrderSettings":[
     {"name":"buttons","order":2,"path":"folders/Objects/UI/buttons.yy",},
     {"name":"Buttons","order":11,"path":"folders/Sprites/Buttons.yy",},
+    {"name":"preguntas","order":12,"path":"folders/Sprites/preguntas.yy",},
+    {"name":"spr_01","order":1,"path":"folders/Sprites/preguntas/spr_01.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"obj_block","order":5,"path":"objects/obj_block/obj_block.yy",},
@@ -59,6 +61,7 @@
     {"name":"snd_seq_good03_BGM","order":12,"path":"sounds/snd_seq_good03_BGM/snd_seq_good03_BGM.yy",},
     {"name":"snd_townAmbience","order":13,"path":"sounds/snd_townAmbience/snd_townAmbience.yy",},
     {"name":"snd_townBGM","order":14,"path":"sounds/snd_townBGM/snd_townBGM.yy",},
+    {"name":"spr_01_bad02","order":1,"path":"sprites/spr_01_bad02/spr_01_bad02.yy",},
     {"name":"spr_baker_angry","order":1,"path":"sprites/spr_baker_angry/spr_baker_angry.yy",},
     {"name":"spr_baker_happy","order":2,"path":"sprites/spr_baker_happy/spr_baker_happy.yy",},
     {"name":"spr_baker_sad","order":8,"path":"sprites/spr_baker_sad/spr_baker_sad.yy",},
