@@ -3,6 +3,10 @@
     {"name":"buttons","order":2,"path":"folders/Objects/UI/buttons.yy",},
     {"name":"Buttons","order":11,"path":"folders/Sprites/Buttons.yy",},
     {"name":"preguntas","order":12,"path":"folders/Sprites/preguntas.yy",},
+    {"name":"nivel1","order":2,"path":"folders/Sprites/preguntas/nivel1.yy",},
+    {"name":"spr_03","order":3,"path":"folders/Sprites/preguntas/nivel1/spr_03.yy",},
+    {"name":"spr_01","order":1,"path":"folders/Sprites/preguntas/nivel1/spr_01.yy",},
+    {"name":"spr_02","order":2,"path":"folders/Sprites/preguntas/nivel1/spr_02.yy",},
     {"name":"spr_01","order":1,"path":"folders/Sprites/preguntas/spr_01.yy",},
   ],
   "ResourceOrderSettings":[

@@ -5,7 +5,7 @@ textToShow = "Put whatever text you like into this string!"
 textWidth = 450;
 lineHeight = 28;
 
-spriteToShow = noone;
+textToShow = "";
 
 press = function(){
 	show_debug_message("boton accionado")
