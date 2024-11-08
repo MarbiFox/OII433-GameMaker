@@ -5,8 +5,3 @@
 event_inherited();
 
 textToShow = "boton 3"
-
-press = function(){
-	obj_problem_control.alarm[1] = 1;
-}
-

@@ -1,0 +1,146 @@
+{
+	"srp": {
+		"lv1":{
+			"qt1":{
+				"title" : "srp lv1 titulo del problema",
+				"sprite" : "spr_block",
+				"good" : "respuesta correcta",
+				"bad1" : "respuesta incorrecta 1",
+				"bad2" : "respuesta incorrecta 2"
+			},
+			"qt2":{
+				"title" : "titulo del problema",
+				"sprite" : "spr_block",
+				"good" : "respuesta correcta",
+				"bad1" : "respuesta incorrecta 1",
+				"bad2" : "respuesta incorrecta 2"
+			},
+			"qt3":{
+				"title" : "titulo del problema",
+				"sprite" : "spr_block",
+				"good" : "respuesta correcta",
+				"bad1" : "respuesta incorrecta 1",
+				"bad2" : "respuesta incorrecta 2"
+			}
+		},
+		"lv2":{
+			"qt1":{
+				"title" : "srp lv2 titulo del problema",
+				"sprite" : "spr_block",
+				"good" : "respuesta correcta",
+				"bad1" : "respuesta incorrecta 1",
+				"bad2" : "respuesta incorrecta 2"
+			},
+			"qt2":{
+				"title" : "titulo del problema",
+				"sprite" : "spr_block",
+				"good" : "respuesta correcta",
+				"bad1" : "respuesta incorrecta 1",
+				"bad2" : "respuesta incorrecta 2"
+			},
+			"qt3":{
+				"title" : "titulo del problema",
+				"sprite" : "spr_block",
+				"good" : "respuesta correcta",
+				"bad1" : "respuesta incorrecta 1",
+				"bad2" : "respuesta incorrecta 2"
+			}
+		}
+	},
+	"ocp": {
+		"lv1":{
+			"qt1":{
+				"title" : "ocp lv1 titulo del problema",
+				"sprite" : "spr_block",
+				"good" : "respuesta correcta",
+				"bad1" : "respuesta incorrecta 1",
+				"bad2" : "respuesta incorrecta 2"
+			},
+			"qt2":{
+				"title" : "titulo del problema",
+				"sprite" : "spr_block",
+				"good" : "respuesta correcta",
+				"bad1" : "respuesta incorrecta 1",
+				"bad2" : "respuesta incorrecta 2"
+			},
+			"qt3":{
+				"title" : "titulo del problema",
+				"sprite" : "spr_block",
+				"good" : "respuesta correcta",
+				"bad1" : "respuesta incorrecta 1",
+				"bad2" : "respuesta incorrecta 2"
+			}
+		},
+		"lv2":{
+			"qt1":{
+				"title" : "ocp lv2 titulo del problema",
+				"sprite" : "spr_block",
+				"good" : "respuesta correcta",
+				"bad1" : "respuesta incorrecta 1",
+				"bad2" : "respuesta incorrecta 2"
+			},
+			"qt2":{
+				"title" : "titulo del problema",
+				"sprite" : "spr_block",
+				"good" : "respuesta correcta",
+				"bad1" : "respuesta incorrecta 1",
+				"bad2" : "respuesta incorrecta 2"
+			},
+			"qt3":{
+				"title" : "titulo del problema",
+				"sprite" : "spr_block",
+				"good" : "respuesta correcta",
+				"bad1" : "respuesta incorrecta 1",
+				"bad2" : "respuesta incorrecta 2"
+			}
+		}
+	},
+	"lsp": {
+		"lv1":{
+			"qt1":{
+				"title" : "lsp lv1 titulo del problema",
+				"sprite" : "spr_block",
+				"good" : "respuesta correcta",
+				"bad1" : "respuesta incorrecta 1",
+				"bad2" : "respuesta incorrecta 2"
+			},
+			"qt2":{
+				"title" : "titulo del problema",
+				"sprite" : "spr_block",
+				"good" : "respuesta correcta",
+				"bad1" : "respuesta incorrecta 1",
+				"bad2" : "respuesta incorrecta 2"
+			},
+			"qt3":{
+				"title" : "titulo del problema",
+				"sprite" : "spr_block",
+				"good" : "respuesta correcta",
+				"bad1" : "respuesta incorrecta 1",
+				"bad2" : "respuesta incorrecta 2"
+			}
+		},
+		"lv2":{
+			"qt1":{
+				"title" : "lsp lv2 titulo del problema",
+				"sprite" : "spr_block",
+				"good" : "respuesta correcta",
+				"bad1" : "respuesta incorrecta 1",
+				"bad2" : "respuesta incorrecta 2"
+			},
+			"qt2":{
+				"title" : "titulo del problema",
+				"sprite" : "id del sprite",
+				"good" : "respuesta correcta",
+				"bad1" : "respuesta incorrecta 1",
+				"bad2" : "respuesta incorrecta 2"
+			},
+			"qt3":{
+				"title" : "titulo del problema",
+				"sprite" : "spr_block",
+				"good" : "respuesta correcta",
+				"bad1" : "respuesta incorrecta 1",
+				"bad2" : "respuesta incorrecta 2"
+			}
+		}
+	}
+}

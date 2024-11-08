@@ -1,8 +1,5 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-
-// Inherit the parent event
-event_inherited();
-
-textToShow = "boton 1"
-
+if(!instance_exists(obj_player)){
+	room_goto(rm_gameMain)
+}

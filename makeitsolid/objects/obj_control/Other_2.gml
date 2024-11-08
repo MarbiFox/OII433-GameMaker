@@ -1,9 +1,9 @@
 /// @description Setup and variables
+global.question_map = scr_read_json("question_data.json")
 
 // Game variables
 global.playerControl = true;
-townBGMvolume = audio_sound_get_gain(snd_townBGM);
-townAmbienceVolume = audio_sound_get_gain(snd_townAmbience);
+
 global.gameOver = false;
 global.gameStart = false;
 

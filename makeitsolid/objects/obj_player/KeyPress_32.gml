@@ -6,11 +6,11 @@ var _text, _seq , _room;
 if (global.playerControl == true) {
 	if (nearbyNPC){
 		_text = nearbyNPC.myText;
-		_room = nearbyNPC.myRoom;
+		_problem = nearbyNPC.myProblem;
 		if (!instance_exists(obj_textbox)) {
 			iii = instance_create_depth(nearbyNPC.x,nearbyNPC.y-400,-10000,obj_textbox);
 			iii.textToShow = _text;
-			iii.roomToSet = _room;
+			obj_control.target_problem = _problem;
 		}
 	}
 }

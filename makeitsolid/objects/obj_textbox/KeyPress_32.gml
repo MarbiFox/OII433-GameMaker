@@ -2,9 +2,7 @@
 
 // Begin fade out
 if (fadeMe == 1) {
-	if (roomToSet != noone && roomToSet != undefined){
-		room_goto(roomToSet)
-	}
+	obj_control.alarm[0] = 1;
 	fadeMe = 2;
 }
 

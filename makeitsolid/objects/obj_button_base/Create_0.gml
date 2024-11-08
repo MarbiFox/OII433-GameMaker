@@ -6,7 +6,8 @@ textWidth = 450;
 lineHeight = 28;
 
 textToShow = "";
+alarm_index = 0;
 
 press = function(){
-	show_debug_message("boton accionado")
+	obj_problem_control.alarm[alarm_index] = 1;
 }

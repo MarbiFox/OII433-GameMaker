@@ -4,7 +4,3 @@
 // Inherit the parent event
 event_inherited();
 textToShow = "boton 2"
-press = function(){
-	obj_problem_control.alarm[1] = 1;
-}
-

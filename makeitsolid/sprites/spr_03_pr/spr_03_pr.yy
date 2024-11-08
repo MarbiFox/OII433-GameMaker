@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"spr_03",
-    "path":"folders/Sprites/preguntas/nivel1/spr_03.yy",
+    "name":"nivel1",
+    "path":"folders/Sprites/preguntas/spr/nivel1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
