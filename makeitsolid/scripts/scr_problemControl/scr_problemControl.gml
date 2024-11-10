@@ -9,6 +9,7 @@ function scr_problemControl(_problem_id,_lvl,_problem_index){
 	
 	_auxmap = global.question_map
 	_lvl_id = "lv" + string(_lvl)
+	show_debug_message(_lvl_id)
 	_qt_id = "qt" + string(_problem_index)
 	
 	title = _auxmap[? _problem_id][? _lvl_id][?_qt_id][? "title"]

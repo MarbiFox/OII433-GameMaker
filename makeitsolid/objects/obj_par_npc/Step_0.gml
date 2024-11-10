@@ -20,3 +20,12 @@ switch myState {
 	
 // Depth sorting
 depth =-y;
+
+
+if (global.problem_levels[? myProblem] != noone and global.problem_levels[? myProblem] != undefined){
+	mylevel = global.problem_levels[? myProblem] 
+}
+
+if (mylevel >= mylevellimit){
+	myState = npcState.done
+}

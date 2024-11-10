@@ -3,9 +3,13 @@ global.question_map = scr_read_json("question_data.json")
 
 // Game variables
 global.playerControl = true;
-
 global.gameOver = false;
 global.gameStart = false;
+
+global.problem_levels = ds_map_create()
+global.problem_levels[? "srp"] = 1
+global.problem_levels[? "ocp"] = 1
+global.problem_levels[? "lsp"] = 1
 
 // Player states
 enum playerState {

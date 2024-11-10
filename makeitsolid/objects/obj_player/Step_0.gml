@@ -106,8 +106,10 @@ if (vx != 0 || vy != 0) {
 // Check for collision with NPCs
 nearbyNPC = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,obj_par_npc,false,true);
 
+
 //cerca de un npc
 if nearbyNPC {
+	show_debug_message(nearbyNPC.mylevel)
 	
 	if (npcPrompt == noone || npcPrompt == undefined) {
 		npcPrompt = scr_showPrompt(nearbyNPC,nearbyNPC.x,nearbyNPC.y-450);

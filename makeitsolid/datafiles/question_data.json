@@ -129,7 +129,7 @@
 			},
 			"qt2":{
 				"title" : "titulo del problema",
-				"sprite" : "id del sprite",
+				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",
 				"bad2" : "respuesta incorrecta 2"

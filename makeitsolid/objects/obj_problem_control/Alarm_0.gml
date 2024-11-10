@@ -1,7 +1,8 @@
 /// @description solucionado
 // Puede escribir su código en este editor
-show_debug_message("pregunta buena")
+obj_panel_status.question_status[question_current] = 2
 question_current++;
-question_draw = false;
-obj_panel_status.textToShow = "correcto"
+good_questions++;
+alarm[2] = 1
 
+ds_map_add(respuestas,"qt"+string(question_current),"respuesta correcta")

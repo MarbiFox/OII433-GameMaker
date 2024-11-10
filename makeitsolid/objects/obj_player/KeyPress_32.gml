@@ -5,12 +5,14 @@ var _text, _seq , _room;
 // If player has control
 if (global.playerControl == true) {
 	if (nearbyNPC){
-		_text = nearbyNPC.myText;
-		_problem = nearbyNPC.myProblem;
+		_text = nearbyNPC.myText
+		_problem = nearbyNPC.myProblem
+		_level = nearbyNPC.mylevel
 		if (!instance_exists(obj_textbox)) {
-			iii = instance_create_depth(nearbyNPC.x,nearbyNPC.y-400,-10000,obj_textbox);
-			iii.textToShow = _text;
-			obj_control.target_problem = _problem;
+			iii = instance_create_depth(nearbyNPC.x,nearbyNPC.y-400,-10000,obj_textbox)
+			iii.textToShow = _text
+			obj_control.target_problem = _problem
+			obj_control.target_level = _level
 		}
 	}
 }
