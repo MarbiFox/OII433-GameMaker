@@ -2,15 +2,10 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para más información
 function scr_problemControl(_problem_id,_lvl,_problem_index){
 	
-	if(_problem_index>3){
-		finish = true
-		return
-	}
-	
 	_auxmap = global.question_map
 	_lvl_id = "lv" + string(_lvl)
-	show_debug_message(_lvl_id)
 	_qt_id = "qt" + string(_problem_index)
+	
 	
 	title = _auxmap[? _problem_id][? _lvl_id][?_qt_id][? "title"]
 	promblem_sprite = asset_get_index(_auxmap[? _problem_id][? _lvl_id][?_qt_id][? "sprite"])

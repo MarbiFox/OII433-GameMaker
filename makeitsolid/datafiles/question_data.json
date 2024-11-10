@@ -1,22 +1,22 @@
-{
+{ 
 	"srp": {
-		"lv1":{
+		"lv1":{ 
 			"qt1":{
-				"title" : "srp lv1 titulo del problema",
+				"title" : "srp lv1 pregunta 1",
 				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",
 				"bad2" : "respuesta incorrecta 2"
 			},
 			"qt2":{
-				"title" : "titulo del problema",
+				"title" : "srp lv1 pregunta 2",
 				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",
 				"bad2" : "respuesta incorrecta 2"
 			},
 			"qt3":{
-				"title" : "titulo del problema",
+				"title" : "srp lv1 pregunta 3",
 				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",
@@ -25,21 +25,21 @@
 		},
 		"lv2":{
 			"qt1":{
-				"title" : "srp lv2 titulo del problema",
+				"title" : "srp lv2 pregunta 1",
 				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",
 				"bad2" : "respuesta incorrecta 2"
 			},
 			"qt2":{
-				"title" : "titulo del problema",
+				"title" : "srp lv2 pregunta 2",
 				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",
 				"bad2" : "respuesta incorrecta 2"
 			},
 			"qt3":{
-				"title" : "titulo del problema",
+				"title" : "srp lv2 pregunta 3",
 				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",
@@ -50,21 +50,21 @@
 	"ocp": {
 		"lv1":{
 			"qt1":{
-				"title" : "ocp lv1 titulo del problema",
+				"title" : "ocp lv1 pregunta 1",
 				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",
 				"bad2" : "respuesta incorrecta 2"
 			},
 			"qt2":{
-				"title" : "titulo del problema",
+				"title" : "ocp lv1 pregunta 2",
 				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",
 				"bad2" : "respuesta incorrecta 2"
 			},
 			"qt3":{
-				"title" : "titulo del problema",
+				"title" : "ocp lv1 pregunta 3",
 				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",
@@ -73,21 +73,21 @@
 		},
 		"lv2":{
 			"qt1":{
-				"title" : "ocp lv2 titulo del problema",
+				"title" : "ocp lv2 pregunta 1",
 				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",
 				"bad2" : "respuesta incorrecta 2"
 			},
 			"qt2":{
-				"title" : "titulo del problema",
+				"title" : "ocp lv2 pregunta 2",
 				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",
 				"bad2" : "respuesta incorrecta 2"
 			},
 			"qt3":{
-				"title" : "titulo del problema",
+				"title" : "ocp lv2 pregunta 3",
 				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",
@@ -98,21 +98,21 @@
 	"lsp": {
 		"lv1":{
 			"qt1":{
-				"title" : "lsp lv1 titulo del problema",
+				"title" : "lsp lv1 pregunta 1",
 				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",
 				"bad2" : "respuesta incorrecta 2"
 			},
 			"qt2":{
-				"title" : "titulo del problema",
+				"title" : "lsp lv1 pregunta 2",
 				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",
 				"bad2" : "respuesta incorrecta 2"
 			},
 			"qt3":{
-				"title" : "titulo del problema",
+				"title" : "lsp lv1 pregunta 3",
 				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",
@@ -121,21 +121,21 @@
 		},
 		"lv2":{
 			"qt1":{
-				"title" : "lsp lv2 titulo del problema",
+				"title" : "lsp lv2 pregunta 1",
 				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",
 				"bad2" : "respuesta incorrecta 2"
 			},
 			"qt2":{
-				"title" : "titulo del problema",
+				"title" : "lsp lv2 pregunta 2",
 				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",
 				"bad2" : "respuesta incorrecta 2"
 			},
 			"qt3":{
-				"title" : "titulo del problema",
+				"title" : "lsp lv2 pregunta 3",
 				"sprite" : "spr_block",
 				"good" : "respuesta correcta",
 				"bad1" : "respuesta incorrecta 1",

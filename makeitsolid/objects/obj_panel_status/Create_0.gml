@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-textToShow = "titulo"
+textToShow = ""
 
 question_number = 0
 current_index = 0

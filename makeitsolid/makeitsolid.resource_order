@@ -135,6 +135,7 @@
     {"name":"spr_teacher_walk_left","order":6,"path":"sprites/spr_teacher_walk_left/spr_teacher_walk_left.yy",},
     {"name":"spr_teacher_walk_right","order":1,"path":"sprites/spr_teacher_walk_right/spr_teacher_walk_right.yy",},
     {"name":"spr_teacher_walk_up","order":7,"path":"sprites/spr_teacher_walk_up/spr_teacher_walk_up.yy",},
+    {"name":"spr_test_1","order":13,"path":"sprites/spr_test_1/spr_test_1.yy",},
     {"name":"spr_title_mainLogo","order":2,"path":"sprites/spr_title_mainLogo/spr_title_mainLogo.yy",},
     {"name":"spr_title_pressEnter","order":3,"path":"sprites/spr_title_pressEnter/spr_title_pressEnter.yy",},
     {"name":"spr_title_thankYou","order":9,"path":"sprites/spr_title_thankYou/spr_title_thankYou.yy",},

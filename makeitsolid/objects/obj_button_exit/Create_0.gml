@@ -7,7 +7,7 @@ event_inherited();
 textToShow = "exit"
 
 press = function(){
-	room_goto(rm_gameMain)
+	room_goto(obj_control.oldroom)
 	global.playerControl = true;
 	audio_stop_all()
 }

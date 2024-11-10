@@ -7,5 +7,4 @@ if(target_problem != noone and target_problem != undefined){
 }
 
 // Play "game over" Sequence
-show_debug_message("dialogo terminado")
 

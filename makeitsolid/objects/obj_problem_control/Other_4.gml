@@ -1,11 +1,20 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-respuestas = ds_map_create()
+
+respuestas = array_create(question_limit,0)
 question_status_array = array_create(question_limit,0)
 problem_type = obj_control.target_problem
 problem_level = obj_control.target_level
 
-show_debug_message(json_encode(global.problem_levels))
+var _size = ds_map_size(global.question_map[? problem_type][? "lv"+string(problem_level)])
+
+var _f = function(_index)
+{
+    return _index + 1;
+}
+
+problem_order = array_shuffle(array_create_ext(_size,_f))
+
 
 alarm[2] = 1

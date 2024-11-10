@@ -19,7 +19,6 @@
   "height":250,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"31ed958e-c05a-4ab9-9ccc-858b06f79f91","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"31ed958e-c05a-4ab9-9ccc-858b06f79f91","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"a0dc015c-655a-4f7e-9639-b5c5b1418d94","blendMode":0,"displayName":"default","isLocked":false,"name":"a0dc015c-655a-4f7e-9639-b5c5b1418d94","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"button_base",

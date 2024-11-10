@@ -19,18 +19,9 @@ function scr_read_json(name){
 	
 }
 
-function scr_test_json(){
-	
+function scr_spriteanimated(_sprite,_number,_posx,_posy){
+	for(i=0;i<_number;i++){
+		draw_sprite(_sprite,i,_posx,_posy)
+	}	
 }
-/*
 
-json = ""
-	_file = file_text_open_read(dir)
-	while(file_text_eof(_file)){
-		json += file_text_readln(_file)
-	}
-	file_text_close(_file)
-	
-	return json
-
-*/

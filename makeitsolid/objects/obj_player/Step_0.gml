@@ -1,5 +1,8 @@
 /// @description Player movement, more
 
+
+
+
 // movimiento 
 if (global.playerControl == true) {
 	moveRight = keyboard_check(ord("D"));
@@ -109,7 +112,6 @@ nearbyNPC = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,
 
 //cerca de un npc
 if nearbyNPC {
-	show_debug_message(nearbyNPC.mylevel)
 	
 	if (npcPrompt == noone || npcPrompt == undefined) {
 		npcPrompt = scr_showPrompt(nearbyNPC,nearbyNPC.x,nearbyNPC.y-450);
