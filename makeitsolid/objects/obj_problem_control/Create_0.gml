@@ -1,8 +1,8 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 question_current = 0;
-question_limit = 3;
-question_draw = false;
+question_limit = 5;
+finished_process = false
 
 problem_type = undefined
 problem_level = 0

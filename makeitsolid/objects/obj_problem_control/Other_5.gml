@@ -1,7 +1,7 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-if(question_current == question_limit){
+if(finished_process){
 	
 	output = ""
 	for(i=0;i<array_length(respuestas);i++){

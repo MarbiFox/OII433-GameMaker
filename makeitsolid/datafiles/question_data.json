@@ -1,145 +1,460 @@
-{ 
+{
 	"srp": {
-		"lv1":{ 
+		"lv1":{
 			"qt1":{
-				"title" : "srp lv1 pregunta 1",
-				"sprite" : "spr_test_qt",
-				"good" : "respuesta correcta",
-				"bad1" : "respuesta incorrecta 1",
-				"bad2" : "respuesta incorrecta 2"
+				"title" : "¿Cuál de las siguientes clases cumple el principio de responsabilidad única?",
+				"sprite" : "spr_srp_lv1_qt1",
+				"good" : "Miembro",
+				"bad1" : "Bibliotecario",
+				"bad2" : "Libro"
 			},
 			"qt2":{
-				"title" : "srp lv1 pregunta 2",
-				"sprite" : "spr_test_qt",
-				"good" : "respuesta correcta",
-				"bad1" : "respuesta incorrecta 1",
-				"bad2" : "respuesta incorrecta 2"
+				"title" : "¿Cuál de las siguientes funciones rompe el principio de responsabilidad única?",
+				"sprite" : "spr_srp_lv1_qt2",
+				"good" : "registrarLibro(Registro)",
+				"bad1" : "obtenerStatus()",
+				"bad2" : "verDisponibilidad(Libro)"
 			},
 			"qt3":{
-				"title" : "srp lv1 pregunta 3",
-				"sprite" : "spr_test_qt",
-				"good" : "respuesta correcta",
-				"bad1" : "respuesta incorrecta 1",
-				"bad2" : "respuesta incorrecta 2"
+				"title" : "¿Cuál de las siguientes clases rompe el principio de responsabilidad única?",
+				"sprite" : "spr_srp_lv1_qt3",
+				"good" : "Libro",
+				"bad1" : "Miembro",
+				"bad2" : "Bibliotecario"
+			},
+			"qt4":{
+				"title" : "¿Qué clases cumplen el principio de responsabilidad única?",
+				"sprite" : "spr_srp_lv1_qt4",
+				"good" : "Todas",
+				"bad1" : "Bibliotecario y Libro",
+				"bad2" : "Libro y Miembro"
+			},
+			"qt5":{
+				"title" : "¿Cuál de las siguientes clases cumple el principio de responsabilidad única?",
+				"sprite" : "spr_srp_lv1_qt5",
+				"good" : "Cliente",
+				"bad1" : "Orden",
+				"bad2" : "Delivery"
+			},
+			"qt6":{
+				"title" : "¿Cuál de las siguientes funciones rompe el principio de responsabilidad única?",
+				"sprite" : "spr_srp_lv1_qt6",
+				"good" : "entregarOrden(Delivery)",
+				"bad1" : "entregarOrden(Orden)",
+				"bad2" : "Ninguna"
+			},
+			"qt7":{
+				"title" : "¿Qué clases cumplen el principio de responsabilidad única?",
+				"sprite" : "spr_srp_lv1_qt7",
+				"good" : "Orden y Servicio_Pago",
+				"bad1" : "Delivery y Cliente",
+				"bad2" : "Todas"
+			},
+			"qt8":{
+				"title" : "¿Cuál de las siguientes clases rompe el principio de responsabilidad única?",
+				"sprite" : "spr_srp_lv1_qt8",
+				"good" : "Ninguna",
+				"bad1" : "Delivery",
+				"bad2" : "Cliente"
+			},
+			"qt9":{
+				"title" : "¿Cuál de las siguientes funciones rompe el principio de responsabilidad única?",
+				"sprite" : "spr_srp_lv1_qt9",
+				"good" : "quitarProducto(Producto)",
+				"bad1" : "calcularPrecioAcumulado()",
+				"bad2" : "obtenerCantidad()"
+			},
+			"qt10":{
+				"title" : "¿Cuál de las siguientes clases rompe el principio de responsabilidad única?",
+				"sprite" : "spr_srp_lv1_qt10",
+				"good" : "Usuario",
+				"bad1" : "Carro",
+				"bad2" : "Pedido"
+			},
+			"qt11":{
+				"title" : "¿Qué clases cumplen el principio de responsabilidad única?",
+				"sprite" : "spr_srp_lv1_qt11",
+				"good" : "Todas",
+				"bad1" : "Carro, Pedido y Producto",
+				"bad2" : "Pedido, Producto y Usuario"
+			},
+			"qt12":{
+				"title" : "¿Qué clases cumplen el principio de responsabilidad única?",
+				"sprite" : "spr_srp_lv1_qt12",
+				"good" : "Todas",
+				"bad1" : "Carro, Producto y Usuario",
+				"bad2" : "Pedido, Producto y Usuario"
 			}
 		},
 		"lv2":{
 			"qt1":{
-				"title" : "srp lv2 pregunta 1",
-				"sprite" : "spr_test_qt",
-				"good" : "respuesta correcta",
-				"bad1" : "respuesta incorrecta 1",
-				"bad2" : "respuesta incorrecta 2"
+				"title" : "¿La función devolverLibro() en qué clase debería ir para cumplir con SRP?",
+				"sprite" : "spr_srp_lv2_qt1",
+				"good" : "Préstamo",
+				"bad1" : "Libro",
+				"bad2" : "Miembro"
 			},
 			"qt2":{
-				"title" : "srp lv2 pregunta 2",
-				"sprite" : "spr_test_qt",
-				"good" : "respuesta correcta",
-				"bad1" : "respuesta incorrecta 1",
-				"bad2" : "respuesta incorrecta 2"
+				"title" : "¿Qué clase debería manejar la colección (lista) de libros disponibles para cumplir con SRP?",
+				"sprite" : "spr_srp_lv2_qt2",
+				"good" : "Registro",
+				"bad1" : "Miembro",
+				"bad2" : "Registro y Miembro"
 			},
 			"qt3":{
-				"title" : "srp lv2 pregunta 3",
-				"sprite" : "spr_test_qt",
-				"good" : "respuesta correcta",
-				"bad1" : "respuesta incorrecta 1",
-				"bad2" : "respuesta incorrecta 2"
+				"title" : "¿En qué clase podría añadir un atributo que represente el valor de un libro, sin romper el principio SRP?",
+				"sprite" : "spr_srp_lv2_qt3",
+				"good" : "Libro",
+				"bad1" : "Préstamo",
+				"bad2" : "Ninguna, se debe añadir una clase para manejar el costo de un libro."
+			},
+			"qt4":{
+				"title" : "¿Dónde se podría añadir un atributo para indicar el tipo de pago que usó el cliente, sin romper el principio SRP?",
+				"sprite" : "spr_srp_lv2_qt4",
+				"good" : "Servicio_Pago",
+				"bad1" : "Cliente",
+				"bad2" : "Orden"
+			},
+			"qt5":{
+				"title" : "¿Qué función podría asignar la dirección del cliente a la orden, sin romper el principio SRP?",
+				"sprite" : "spr_srp_lv2_qt5",
+				"good" : "obtenerDirección en Orden",
+				"bad1" : "obtenerDirección en Cliente",
+				"bad2" : "asignarDirección en Cliente"
+			},
+			"qt6":{
+				"title" : "¿En cuál clase se podría añadir una función para calcular el tiempo de entrega en base a la dirección del local y del cliente?",
+				"sprite" : "spr_srp_lv2_qt6",
+				"good" : "Es recomendable crear una clase nueva, pues ninguna maneja tiempos",
+				"bad1" : "Delivery",
+				"bad2" : "Orden"
+			},
+			"qt7":{
+				"title" : "¿En qué clases se podría calcular el precio de un carro de compras, sin romper el principio SRP?",
+				"sprite" : "spr_srp_lv2_qt7",
+				"good" : "Carro y Pedido",
+				"bad1" : "Pedido y Usuario",
+				"bad2" : "Carro y Usuario"
+			},
+			"qt8":{
+				"title" : "¿Qué función necesita la clase Usuario para poder emitir una orden de compra?",
+				"sprite" : "spr_srp_lv2_qt8",
+				"good" : "comprarCarro(Carro)",
+				"bad1" : "emitirPedido()",
+				"bad2" : "No es responsabilidad de la clase realizar una compra"
+			},
+			"qt9":{
+				"title" : "¿Qué clases necesitan manejar algún tipo de atributo de precio según el diseño?",
+				"sprite" : "spr_srp_lv2_qt9",
+				"good" : "Carro, Pedido y Producto",
+				"bad1" : "Carro y Producto",
+				"bad2" : "Pedido y Producto"
 			}
 		}
 	},
 	"ocp": {
 		"lv1":{
 			"qt1":{
-				"title" : "ocp lv1 pregunta 1",
-				"sprite" : "spr_test_qt",
-				"good" : "respuesta correcta",
-				"bad1" : "respuesta incorrecta 1",
-				"bad2" : "respuesta incorrecta 2"
+				"title" : "¿Cuál de las siguientes clases incumple el principio abierto-cerrado?",
+				"sprite" : "spr_ocp_lv1_qt1",
+				"good" : "Tarea",
+				"bad1" : "Tarea_Limpieza",
+				"bad2" : "Tarea_Cocina"
 			},
 			"qt2":{
-				"title" : "ocp lv1 pregunta 2",
-				"sprite" : "spr_test_qt",
-				"good" : "respuesta correcta",
-				"bad1" : "respuesta incorrecta 1",
-				"bad2" : "respuesta incorrecta 2"
+				"title" : "¿Cuál de las siguientes funciones rompe el principio abierto-cerrado?",
+				"sprite" : "spr_ocp_lv1_qt2",
+				"good" : "ajustarHorario()",
+				"bad1" : "realizarTarea()",
+				"bad2" : "Ninguna"
 			},
 			"qt3":{
-				"title" : "ocp lv1 pregunta 3",
-				"sprite" : "spr_test_qt",
-				"good" : "respuesta correcta",
-				"bad1" : "respuesta incorrecta 1",
-				"bad2" : "respuesta incorrecta 2"
+				"title" : "¿Qué clases NO cumplen con el principio abierto-cerrado?",
+				"sprite" : "spr_ocp_lv1_qt3",
+				"good" : "Tarea",
+				"bad1" : "Todas",
+				"bad2" : "Ninguna"
+			},
+			"qt4":{
+				"title" : "¿Cuál de las siguientes clases rompe el principio abierto-cerrado?",
+				"sprite" : "spr_ocp_lv1_qt4",
+				"good" : "Ninguna",
+				"bad1" : "Tarea_Cocina",
+				"bad2" : "Tarea"
+			},
+			"qt5":{
+				"title" : "¿Cuál de las siguientes clases rompe el principio abierto-cerrado?",
+				"sprite" : "spr_ocp_lv1_qt5",
+				"good" : "Operación_Resta",
+				"bad1" : "Calculadora",
+				"bad2" : "Operación"
+			},
+			"qt6":{
+				"title" : "¿Cuál de las siguientes funciones rompe el principio abierto-cerrado?",
+				"sprite" : "spr_ocp_lv1_qt6",
+				"good" : "validarInput(double, double)",
+				"bad1" : "ejecutar(double, double)",
+				"bad2" : "realizarOperación()"
+			},
+			"qt7":{
+				"title" : "¿Qué clases NO cumplen con el principio abierto-cerrado?",
+				"sprite" : "spr_ocp_lv1_qt7",
+				"good" : "Sólo Calculadora",
+				"bad1" : "Sólo Operación_Resta",
+				"bad2" : "Calculadora y Operación_Resta"
+			},
+			"qt8":{
+				"title" : "¿Qué clases cumplen con el principio abierto-cerrado?",
+				"sprite" : "spr_ocp_lv1_qt8",
+				"good" : "Todas",
+				"bad1" : "Calculadora y Operación",
+				"bad2" : "Operación, Operación_Suma y Operación_Resta"
+			},
+			"qt9":{
+				"title" : "¿Cuál de las siguientes funciones rompe el principio abierto-cerrado?",
+				"sprite" : "spr_ocp_lv1_qt9",
+				"good" : "aplicarTarifa()",
+				"bad1" : "agregarPlato(Plato)",
+				"bad2" : "aplicarDescuento()"
+			},
+			"qt10":{
+				"title" : "¿Cuál de las siguientes clases rompe el principio abierto-cerrado?",
+				"sprite" : "spr_ocp_lv1_qt10",
+				"good" : "Plato",
+				"bad1" : "Menú",
+				"bad2" : "Plato_Promocional"
+			},
+			"qt11":{
+				"title" : "¿Qué clases cumplen con el principio abierto-cerrado?",
+				"sprite" : "spr_ocp_lv1_qt11",
+				"good" : "Plato, Plato_Promocional y Plato_Limitado",
+				"bad1" : "Menú, Plato y Plato_Promocional",
+				"bad2" : "Todas"
+			},
+			"qt12":{
+				"title" : "¿Qué clases NO cumplen con el principio abierto-cerrado?",
+				"sprite" : "spr_ocp_lv1_qt12",
+				"good" : "Ninguna",
+				"bad1" : "Menú",
+				"bad2" : "Plato"
 			}
 		},
 		"lv2":{
 			"qt1":{
-				"title" : "ocp lv2 pregunta 1",
-				"sprite" : "spr_test_qt",
-				"good" : "respuesta correcta",
-				"bad1" : "respuesta incorrecta 1",
-				"bad2" : "respuesta incorrecta 2"
+				"title" : "¿Qué función puede ir en Tarea_Jardinería, sin romper el principio OCP?",
+				"sprite" : "spr_ocp_lv2_qt1",
+				"good" : "No debería haber otra función.",
+				"bad1" : "utilizarHerramienta()",
+				"bad2" : "cambiarArea()"
 			},
 			"qt2":{
-				"title" : "ocp lv2 pregunta 2",
-				"sprite" : "spr_test_qt",
-				"good" : "respuesta correcta",
-				"bad1" : "respuesta incorrecta 1",
-				"bad2" : "respuesta incorrecta 2"
+				"title" : "¿En qué clase debería existir un atributo “Tiempo” para manejar el tiempo de una tarea?",
+				"sprite" : "spr_ocp_lv2_qt2",
+				"good" : "Tarea",
+				"bad1" : "Cualquiera",
+				"bad2" : "Tarea_Cocina, Tarea_Jardinería y Tarea_Limpieza"
 			},
 			"qt3":{
-				"title" : "ocp lv2 pregunta 3",
-				"sprite" : "spr_test_qt",
-				"good" : "respuesta correcta",
-				"bad1" : "respuesta incorrecta 1",
-				"bad2" : "respuesta incorrecta 2"
+				"title" : "Considerando una función para marcar una tarea como finalizada. ¿Qué subclases deberían implementar su propia versión?",
+				"sprite" : "spr_ocp_lv2_qt3",
+				"good" : "Ninguna",
+				"bad1" : "Todas las subclases",
+				"bad2" : "Sólo Tarea_Limpieza y Tarea_Cocina"
+			},
+			"qt4":{
+				"title" : "Si se desea añadir otra operación al sistema que acepte más números. ¿Podría sobrescribirse la función ejecutar(double, double)?",
+				"sprite" : "spr_ocp_lv2_qt4",
+				"good" : "No puede, de hacerlo se rompería el principio OCP.",
+				"bad1" : "No puede, tendría que dejar 2 funciones en la clase.",
+				"bad2" : "No puede, pero tendría que modificar la clase Calculadora."
+			},
+			"qt5":{
+				"title" : "¿Es posible añadir una función en Operación, sin romper el principio OCP?",
+				"sprite" : "spr_ocp_lv2_qt5",
+				"good" : "Si, pero su procedimiento debe ser el mismo en cualquier operación.",
+				"bad1" : "No, cualquier función extra rompe el patrón.",
+				"bad2" : "Si, pero su procedimiento podría variar en algunas operaciones."
+			},
+			"qt6":{
+				"title" : "¿En sería recomendable colocar un atributo identificador para una operación?",
+				"sprite" : "spr_ocp_lv2_qt6",
+				"good" : "El nombre es fijo, por lo que debería ir Operación.",
+				"bad1" : "El nombre puede cambiar, así que debería ir en las subclases.",
+				"bad2" : "No tiene relevancia dónde va el nombre, ya que es fijo."
+			},
+			"qt7":{
+				"title" : "¿Cuál de los siguientes atributos podría tener más sentido como atributo de Plato_Personalizado?",
+				"sprite" : "spr_ocp_lv2_qt7",
+				"good" : "Cant_Ingredientes",
+				"bad1" : "Número_Orden",
+				"bad2" : "Cant_Chefs"
+			},
+			"qt8":{
+				"title" : "Considerando los atributos de Plato, ¿Qué atributos y funciones serían validas de usar en Plato_Promocional dentro de las siguientes opciones?",
+				"sprite" : "spr_ocp_lv2_qt8",
+				"good" : "DescuentoExtra, obtenerDescuento()",
+				"bad1" : "NombrePromoción, obtenerDescuento()",
+				"bad2" : "TipoPromoción, obtenerPrecio(), obtenerDescuento()"
+			},
+			"qt9":{
+				"title" : "En el caso de que se deba añadir un nuevo tipo de plato. ¿Podría ser un plato gratuito?",
+				"sprite" : "spr_ocp_lv2_qt9",
+				"good" : "Si, pero obtenerPrecio() debería retornar un 0.",
+				"bad1" : "No, porque obtenerPrecio() no tendría implementación.",
+				"bad2" : "Si, pero la clase plato debería agregar un atributo “es_gratis”."
 			}
 		}
 	},
 	"lsp": {
 		"lv1":{
 			"qt1":{
-				"title" : "lsp lv1 pregunta 1",
-				"sprite" : "spr_test_qt",
-				"good" : "respuesta correcta",
-				"bad1" : "respuesta incorrecta 1",
-				"bad2" : "respuesta incorrecta 2"
+				"title" : "¿Cuál de las siguientes clases rompe el principio de sustitución de Liskov?",
+				"sprite" : "spr_lsp_lv1_qt1",
+				"good" : "Bebida_Fría",
+				"bad1" : "Bebida_Caliente",
+				"bad2" : "Bebida"
 			},
 			"qt2":{
-				"title" : "lsp lv1 pregunta 2",
-				"sprite" : "spr_test_qt",
-				"good" : "respuesta correcta",
-				"bad1" : "respuesta incorrecta 1",
-				"bad2" : "respuesta incorrecta 2"
+				"title" : "¿Cuál de las siguientes funciones rompe el principio de sustitución de Liskov?",
+				"sprite" : "spr_lsp_lv1_qt2",
+				"good" : "servir(double)",
+				"bad1" : "servir()",
+				"bad2" : "preparar()"
 			},
 			"qt3":{
-				"title" : "lsp lv1 pregunta 3",
-				"sprite" : "spr_test_qt",
-				"good" : "respuesta correcta",
-				"bad1" : "respuesta incorrecta 1",
-				"bad2" : "respuesta incorrecta 2"
+				"title" : "¿Qué clases cumplen con el principio de sustitución de Liskov?",
+				"sprite" : "spr_lsp_lv1_qt3",
+				"good" : "Bebida y Bebida_Caliente",
+				"bad1" : "Bebida y Bebida_Fría",
+				"bad2" : "Todas"
+			},
+			"qt4":{
+				"title" : "¿Qué clases cumplen con el principio de sustitución de Liskov?",
+				"sprite" : "spr_lsp_lv1_qt4",
+				"good" : "Todas",
+				"bad1" : "Bebida y Bebida_Caliente",
+				"bad2" : "Bebida y Bebida_Fría"
+			},
+			"qt5":{
+				"title" : "¿Cuál de los siguientes atributos no permite cumplir el principio de sustitución de Liskov?",
+				"sprite" : "spr_lsp_lv1_qt5",
+				"good" : "cantidadCombustible",
+				"bad1" : "Combustible",
+				"bad2" : "Aro_Rueda"
+			},
+			"qt6":{
+				"title" : "¿Cuál de las siguientes funciones en AutoElectrico rompe el principio de sustitución de Liskov?",
+				"sprite" : "spr_lsp_lv1_qt6",
+				"good" : "llenarCombustible()",
+				"bad1" : "manejar()",
+				"bad2" : "cargarBatería()"
+			},
+			"qt7":{
+				"title" : "¿Qué clases cumplen con el principio de sustitución de Liskov?",
+				"sprite" : "spr_lsp_lv1_qt7",
+				"good" : "Vehículo y Avión",
+				"bad1" : "Todas",
+				"bad2" : "Vehículo y Auto"
+			},
+			"qt8":{
+				"title" : "¿Qué clases cumplen con el principio de sustitución de Liskov?",
+				"sprite" : "spr_lsp_lv1_qt8",
+				"good" : "Todas",
+				"bad1" : "Vehículo y Bicicleta",
+				"bad2" : "Vehículo y Auto"
+			},
+			"qt9":{
+				"title" : "¿Cuál de las siguientes clases rompe el principio de sustitución de Liskov?",
+				"sprite" : "spr_lsp_lv1_qt9",
+				"good" : "Perfil_Base",
+				"bad1" : "Perfil",
+				"bad2" : "Perfil_Premium"
+			},
+			"qt10":{
+				"title" : "¿Cuál de las siguientes funciones cumple el principio de sustitución de Liskov?",
+				"sprite" : "spr_lsp_lv1_qt10",
+				"good" : "accederContenido()",
+				"bad1" : "accederContenidoPremium()",
+				"bad2" : "Todas"
+			},
+			"qt11":{
+				"title" : "¿Qué clases cumplen con el principio de sustitución de Liskov?",
+				"sprite" : "spr_lsp_lv1_qt11",
+				"good" : "Ninguna",
+				"bad1" : "Perfil y Perfil_Usuario",
+				"bad2" : "Perfil y Perfil_Admin"
+			},
+			"qt12":{
+				"title" : "¿Qué clases NO cumplen con el principio de sustitución de Liskov?",
+				"sprite" : "spr_lsp_lv1_qt12",
+				"good" : "Ninguna",
+				"bad1" : "Perfil_Premium",
+				"bad2" : "Todas"
 			}
 		},
 		"lv2":{
 			"qt1":{
-				"title" : "lsp lv2 pregunta 1",
-				"sprite" : "spr_test_qt",
-				"good" : "respuesta correcta",
-				"bad1" : "respuesta incorrecta 1",
-				"bad2" : "respuesta incorrecta 2"
+				"title" : "¿Cúal de las siguientes funciones podría ir en Gaseosa sin romper el principio LSP?",
+				"sprite" : "spr_lsp_lv2_qt1",
+				"good" : "AgregarSabor()",
+				"bad1" : "AgregarHielo()",
+				"bad2" : "CambiarTamaño()"
 			},
 			"qt2":{
-				"title" : "lsp lv2 pregunta 2",
-				"sprite" : "spr_test_qt",
-				"good" : "respuesta correcta",
-				"bad1" : "respuesta incorrecta 1",
-				"bad2" : "respuesta incorrecta 2"
+				"title" : "¿Qué atributo podría ir en la clase Té?",
+				"sprite" : "spr_lsp_lv2_qt2",
+				"good" : "Tipo",
+				"bad1" : "Precio",
+				"bad2" : "Cantidad"
 			},
 			"qt3":{
-				"title" : "lsp lv2 pregunta 3",
-				"sprite" : "spr_test_qt",
-				"good" : "respuesta correcta",
-				"bad1" : "respuesta incorrecta 1",
-				"bad2" : "respuesta incorrecta 2"
+				"title" : "¿Es correcto colocar la función agregarLeche en Café?",
+				"sprite" : "spr_lsp_lv2_qt3",
+				"good" : "Si, siempre y cuando se asuma que preparar() sólo considera el café.",
+				"bad1" : "No, necesita ir en Bebida por ser una función específica.",
+				"bad2" : "Si, pero sólo si se sobrescribe la función preparar()."
+			},
+			"qt4":{
+				"title" : "¿Qué función podría ir en AutoEléctrico sin romper el principio LSP?",
+				"sprite" : "spr_lsp_lv2_qt4",
+				"good" : "cargarBatería()",
+				"bad1" : "subirPersonas()",
+				"bad2" : "reducirVelocidad()"
+			},
+			"qt5":{
+				"title" : "¿Qué atributo podría tener la clase Bus, que cumpla con LSP?",
+				"sprite" : "spr_lsp_lv2_qt5",
+				"good" : "Cantidad_Pisos",
+				"bad1" : "Cantidad_Personas",
+				"bad2" : "Kilometraje"
+			},
+			"qt6":{
+				"title" : "¿Qué funciones podrían ir en los espacios vacíos?",
+				"sprite" : "spr_lsp_lv2_qt6",
+				"good" : "aterrizar(), despegar(), volar().",
+				"bad1" : "elevar(), hundir(), volar().",
+				"bad2" : "despegar(), girar(), voltear()."
+			},
+			"qt7":{
+				"title" : "¿Qué función podría tener la clase Perfil_Admin, sin romper el principio LSP?",
+				"sprite" : "spr_lsp_lv2_qt7",
+				"good" : "manejarUsuarios()",
+				"bad1" : "eliminarUsuarios()",
+				"bad2" : "quitarSuscripción()"
+			},
+			"qt8":{
+				"title" : "¿Qué atributos podría tener Perfil_Avanzado sin romper el principio LSP?",
+				"sprite" : "spr_lsp_lv2_qt8",
+				"good" : "Edad, Preferencias",
+				"bad1" : "Foto, Preferencias",
+				"bad2" : "Edad, Foto"
+			},
+			"qt9":{
+				"title" : "¿Es correcto no definir accederContenido() en las subclases?",
+				"sprite" : "spr_lsp_lv2_qt9",
+				"good" : "Si, siempre y cuando la implementación en Perfil valga para ambas subclases.",
+				"bad1" : "No, debe ser sobrescrita en ambas subclases.",
+				"bad2" : "No, debe ser definida en Perfil_Premium."
 			}
 		}
 	}

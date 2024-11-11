@@ -16,5 +16,6 @@ var _f = function(_index)
 
 problem_order = array_shuffle(array_create_ext(_size,_f))
 
+show_debug_message(problem_order)
 
 alarm[2] = 1

@@ -17,13 +17,14 @@ if (question_current < question_limit) {
 	
 }else{
 	question_current = 0;
+	finished_process = true
 	if(good_questions == question_limit) {
-		_text = "pasaste de nivel"
+		_text = "Felicidades has Pasado al nivel"+string(problem_level)+" !"
 		global.problem_levels[? problem_type]++
 	}else if (good_questions == 0){
-		_text = "eri terrible weon"
+		_text = "No tienes ninguna pregunta buena pero puedes seguir intentandolo"
 	}else{
-		_text = "tubiste " + string(good_questions) + " preguntas correctas"
+		_text = "Has Tenido " + string(good_questions) + " Preguntas correctas, sigue asi!"
 	}
 	
 	obj_panel_tittle.textToShow = _text
