@@ -98,6 +98,9 @@
     {"name":"spr_grocer_walk_right","order":3,"path":"sprites/spr_grocer_walk_right/spr_grocer_walk_right.yy",},
     {"name":"spr_grocer_walk_up","order":6,"path":"sprites/spr_grocer_walk_up/spr_grocer_walk_up.yy",},
     {"name":"spr_gui_textbox","order":5,"path":"sprites/spr_gui_textbox/spr_gui_textbox.yy",},
+    {"name":"spr_gumbot_1","order":16,"path":"sprites/spr_gumbot_1/spr_gumbot_1.yy",},
+    {"name":"spr_gumbot_2","order":17,"path":"sprites/spr_gumbot_2/spr_gumbot_2.yy",},
+    {"name":"spr_gumbot_3","order":18,"path":"sprites/spr_gumbot_3/spr_gumbot_3.yy",},
     {"name":"spr_item02","order":1,"path":"sprites/spr_item02/spr_item02.yy",},
     {"name":"spr_item03","order":2,"path":"sprites/spr_item03/spr_item03.yy",},
     {"name":"spr_item04","order":3,"path":"sprites/spr_item04/spr_item04.yy",},
@@ -208,5 +211,6 @@
     {"name":"spr_townTiles","order":7,"path":"sprites/spr_townTiles/spr_townTiles.yy",},
     {"name":"spr_tree01","order":8,"path":"sprites/spr_tree01/spr_tree01.yy",},
     {"name":"tiles_world","order":1,"path":"tilesets/tiles_world/tiles_world.yy",},
+    {"name":"TileSet3","order":2,"path":"tilesets/TileSet3/TileSet3.yy",},
   ],
 }

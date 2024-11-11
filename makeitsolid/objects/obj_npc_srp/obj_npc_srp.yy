@@ -14,10 +14,10 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"sequenceHappy","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"seq_baker_happy","path":"sequences/seq_baker_happy/seq_baker_happy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"seq_baker_happy",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"sequenceSad","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"seq_baker_sad","path":"sequences/seq_baker_sad/seq_baker_sad.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"seq_baker_sad",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"itemTextNormal","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"¡Gracias por ayudarme a entender el valor de concentrarme en una sola tarea! Ahora, puedo mejorar mis pociones como nunca. Sin embargo, siento que aún puedo hacerlas más efectivas si concentro aún más mis habilidades. ¿Me ayudarías a perfeccionarlas?.\"",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"doneSprite","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"spr_baker_happy","path":"sprites/spr_baker_happy/spr_baker_happy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_baker_happy",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"doneSprite","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"spr_gumbot_3","path":"sprites/spr_gumbot_3/spr_gumbot_3.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_gumbot_3",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"myProblem","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"srp\"",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"mylevellimit","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"badSprite","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"spr_baker_sad","path":"sprites/spr_baker_sad/spr_baker_sad.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_baker_sad",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"badSprite","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"spr_gumbot_1","path":"sprites/spr_gumbot_1/spr_gumbot_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_gumbot_1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"myname","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Solomon\"",},
   ],
   "parent":{
@@ -46,8 +46,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_baker_idle_down",
-    "path":"sprites/spr_baker_idle_down/spr_baker_idle_down.yy",
+    "name":"spr_gumbot_2",
+    "path":"sprites/spr_gumbot_2/spr_gumbot_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -14,10 +14,10 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"itemTextDone","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Ahora, gracias a tu ayuda, puedo adoptar cualquier forma sin problemas, y cada una es tan sólida como la original. Llevaré esta habilidad a otro nivel. ¡Muchas gracias!\"",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"sequenceHappy","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"seq_teacher_happy","path":"sequences/seq_teacher_happy/seq_teacher_happy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"seq_teacher_happy",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"sequenceSad","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"seq_teacher_sad","path":"sequences/seq_teacher_sad/seq_teacher_sad.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"seq_teacher_sad",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"doneSprite","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"spr_teacher_happy","path":"sprites/spr_teacher_happy/spr_teacher_happy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_teacher_happy",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"doneSprite","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"spr_gumbot_3","path":"sprites/spr_gumbot_3/spr_gumbot_3.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_gumbot_3",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"myProblem","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"lsp\"",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"mylevellimit","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"badSprite","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"spr_teacher_sad","path":"sprites/spr_teacher_sad/spr_teacher_sad.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_teacher_sad",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"badSprite","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"spr_gumbot_1","path":"sprites/spr_gumbot_1/spr_gumbot_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_gumbot_1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"myname","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Liskov\"",},
   ],
   "parent":{
@@ -46,8 +46,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_teacher_idle_down",
-    "path":"sprites/spr_teacher_idle_down/spr_teacher_idle_down.yy",
+    "name":"spr_gumbot_2",
+    "path":"sprites/spr_gumbot_2/spr_gumbot_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
