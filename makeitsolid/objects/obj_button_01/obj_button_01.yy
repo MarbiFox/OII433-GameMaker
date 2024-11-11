@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"button_base",
-    "path":"sprites/button_base/button_base.yy",
+    "name":"spr_button_base",
+    "path":"sprites/spr_button_base/spr_button_base.yy",
   },
   "spriteMaskId":null,
   "visible":true,

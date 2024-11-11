@@ -3,6 +3,8 @@ global.question_map = scr_read_json("question_data.json")
 global.problem_finished = ""
 global.problem_finish_id = 0
 
+cutscene = false
+
 // Game variables
 global.playerControl = true;
 global.gameOver = false;

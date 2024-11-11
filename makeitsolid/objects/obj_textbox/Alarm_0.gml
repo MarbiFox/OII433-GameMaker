@@ -1,15 +1,6 @@
-/// @description Play sequence (or destroy)
-
-// Return control to player if no Sequence to load
-if (sequenceToShow == noone) {
-	global.playerControl = true;
-	}	
-	
-// Create Sequence if appropriate
-if (sequenceToShow != noone) {
-	// Play NPC Sequence
-	scr_playSequence(sequenceToShow);
-	}
-	
-// Destroy me
-instance_destroy();
+/// @description Inserte aquí la descripción
+// Puede escribir su código en este editor
+if (textOnDisplay != pages[page]) {
+	textOnDisplay += string_char_at(pages[page], string_length(textOnDisplay) + 1);
+	alarm[0] = 2;
+}
