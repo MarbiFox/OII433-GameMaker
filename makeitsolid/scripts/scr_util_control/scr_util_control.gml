@@ -19,6 +19,12 @@ function scr_read_json(name){
 	
 }
 
+function scr_save_questions(_data){
+	_f = file_text_open_write("respuesta.txt")
+	file_text_write_string(_f,_data)
+	file_text_close(_f)
+}
+
 function scr_spriteanimated(_sprite,_number,_posx,_posy){
 	for(i=0;i<_number;i++){
 		draw_sprite(_sprite,i,_posx,_posy)
