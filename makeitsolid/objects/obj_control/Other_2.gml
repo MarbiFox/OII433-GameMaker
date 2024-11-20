@@ -2,8 +2,11 @@
 global.question_map = scr_read_json("question_data.json")
 global.problem_finished = ""
 global.problem_finish_id = 0
+global.player_name = ""
+
 
 cutscene = false
+pass = false
 
 // Game variables
 global.playerControl = true;

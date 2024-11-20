@@ -19,8 +19,8 @@ function scr_read_json(name){
 	
 }
 
-function scr_save_questions(_data){
-	_f = file_text_open_write("respuesta.txt")
+function scr_save_questions(_name,_data){
+	_f = file_text_open_write(_name+".txt")
 	file_text_write_string(_f,_data)
 	file_text_close(_f)
 }

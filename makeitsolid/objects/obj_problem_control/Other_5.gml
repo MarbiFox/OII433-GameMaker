@@ -5,7 +5,7 @@ if(finished_process){
 	
 	output = ""
 	for(i=0;i<array_length(respuestas);i++){
-		output += "user_id attemp_"+string(global.problem_finish_id+1)+" "+string(problem_type)+
+		output += "["+global.player_name+"] attemp_"+string(global.problem_finish_id+1)+" "+string(problem_type)+
 		" level_"+string(problem_level)+" "+respuestas[i][0]+" "+respuestas[i][1]+"\n"
 	}
 
