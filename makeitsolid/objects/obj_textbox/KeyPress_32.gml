@@ -6,11 +6,13 @@ page += 1;
 textOnDisplay = "";
 alarm[0] = 3;
 
-if (page >= array_length(pages)) {
+if (page >= array_length(pages) and delet == true) {
 	page = 0;
 	global.playerControl = true
 	instance_destroy();
 	obj_control.alarm[0] = 1
+	array_length(pages)
+	doAfter()
 }
 
 

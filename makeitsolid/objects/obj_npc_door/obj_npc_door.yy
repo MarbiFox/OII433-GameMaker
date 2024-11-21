@@ -2,14 +2,16 @@
   "$GMObject":"",
   "%Name":"obj_npc_door",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_npc_door",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"itemTextNormal","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"La puerta esta bloqueada, necesitas a todos los robots\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"itemTextNormal","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"La puerta esta bloqueada, necesito a todos los robots para abrirla\"",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"itemTextBad","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"itemTextDone","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"La puerta se a abierto, puedo salir pero los robots aun necesitan de mi ayuda\"",},
   ],
   "parent":{
     "name":"NPCs",

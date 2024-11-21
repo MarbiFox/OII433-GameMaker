@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button_base",
-    "path":"sprites/spr_button_base/spr_button_base.yy",
+    "name":"spr_gui_textbox_1",
+    "path":"sprites/spr_gui_textbox_1/spr_gui_textbox_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

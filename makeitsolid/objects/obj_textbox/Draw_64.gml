@@ -13,4 +13,3 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_text_ext(_x + 32, _y+16, text_user, 35, textbox_w-64);
 draw_text_ext(_x + 32, _y + 68, textOnDisplay, 35, textbox_w-64);
-

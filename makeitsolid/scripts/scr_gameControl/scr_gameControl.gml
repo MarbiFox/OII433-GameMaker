@@ -4,6 +4,6 @@ function scr_gameOver(){
 	obj_player.x = 0
 	obj_player.y = 0
 	global.playerControl = false
-	game_end();
+	room_goto(rm_endgame)
 }
 	

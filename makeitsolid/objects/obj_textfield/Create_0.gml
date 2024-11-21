@@ -4,11 +4,11 @@
 // Inherit the parent event
 event_inherited();
 
-code = "5243"
+code = "FIRE301"
 pass = false
 textToShow = ""
 textAlert = ""
-textTitle = "Ingrese el Codigo de acceso"
+textTitle = "Ingrese el Codigo de acceso en mayusculas"
 
 
 delay=0

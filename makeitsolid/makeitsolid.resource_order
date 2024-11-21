@@ -105,6 +105,7 @@
     {"name":"spr_grocer_walk_left","order":5,"path":"sprites/spr_grocer_walk_left/spr_grocer_walk_left.yy",},
     {"name":"spr_grocer_walk_right","order":3,"path":"sprites/spr_grocer_walk_right/spr_grocer_walk_right.yy",},
     {"name":"spr_grocer_walk_up","order":6,"path":"sprites/spr_grocer_walk_up/spr_grocer_walk_up.yy",},
+    {"name":"spr_gui_textbox_1","order":6,"path":"sprites/spr_gui_textbox_1/spr_gui_textbox_1.yy",},
     {"name":"spr_gui_textbox","order":5,"path":"sprites/spr_gui_textbox/spr_gui_textbox.yy",},
     {"name":"spr_gumbot_1","order":16,"path":"sprites/spr_gumbot_1/spr_gumbot_1.yy",},
     {"name":"spr_gumbot_2","order":17,"path":"sprites/spr_gumbot_2/spr_gumbot_2.yy",},

@@ -166,6 +166,7 @@
     {"id":{"name":"spr_grocer_walk_right","path":"sprites/spr_grocer_walk_right/spr_grocer_walk_right.yy",},},
     {"id":{"name":"spr_grocer_walk_up","path":"sprites/spr_grocer_walk_up/spr_grocer_walk_up.yy",},},
     {"id":{"name":"spr_gui_prompt","path":"sprites/spr_gui_prompt/spr_gui_prompt.yy",},},
+    {"id":{"name":"spr_gui_textbox_1","path":"sprites/spr_gui_textbox_1/spr_gui_textbox_1.yy",},},
     {"id":{"name":"spr_gui_textbox","path":"sprites/spr_gui_textbox/spr_gui_textbox.yy",},},
     {"id":{"name":"spr_gumbot_1","path":"sprites/spr_gumbot_1/spr_gumbot_1.yy",},},
     {"id":{"name":"spr_gumbot_2","path":"sprites/spr_gumbot_2/spr_gumbot_2.yy",},},

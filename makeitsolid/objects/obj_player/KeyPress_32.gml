@@ -9,8 +9,10 @@ if (global.playerControl == true) {
 		_problem = nearbyNPC.myProblem
 		_level = nearbyNPC.mylevel
 		_name = nearbyNPC.myname
+		_after = nearbyNPC.doAfter
 		if (!instance_exists(obj_textbox)) {
 			iii = instance_create_depth(0,0,-10000,obj_textbox)
+			iii.doAfter = _after
 			iii.textToShow = _text
 			iii.text_user = _name
 			obj_control.target_problem = _problem

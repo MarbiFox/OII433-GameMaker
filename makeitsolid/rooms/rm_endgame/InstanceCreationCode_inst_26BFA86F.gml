@@ -1,0 +1,1 @@
+textToShow = "Gracias por participar!\n\nAqui esta el codigo de salida:\nAQUA201"
