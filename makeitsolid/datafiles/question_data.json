@@ -276,7 +276,7 @@
 				"bad2" : "Si, pero su procedimiento podría variar en algunas operaciones."
 			},
 			"qt6":{
-				"title" : "¿En sería recomendable colocar un atributo identificador para una operación?",
+				"title" : "¿En que clase sería recomendable colocar un atributo identificador para una operación?",
 				"sprite" : "spr_ocp_lv2_qt6",
 				"good" : "El nombre es fijo, por lo que debería ir Operación.",
 				"bad1" : "El nombre puede cambiar, así que debería ir en las subclases.",
